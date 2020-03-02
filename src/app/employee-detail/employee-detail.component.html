@@ -1,0 +1,6 @@
+<p>employee-detail works!</p>
+
+<p>ID: {{employee.id}}</p>
+<p>Name: {{employee.name}}</p>
+Name edit: <input type= "text" name="name" id="name" [(ngModel)]= "nameEdit"/>
+<p *ngIf= "employee.department">{{employee.department}}</p>
